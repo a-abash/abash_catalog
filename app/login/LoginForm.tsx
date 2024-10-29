@@ -23,7 +23,7 @@ export default function LoginForm() {
             type="email"
             placeholder="Email"
             {...register("email")}
-            className="w-full h-[42px] p-2 border mb-2 rounded-md text-gray-600 placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500"
+            className="w-full h-[42px] p-2 border rounded-md text-gray-600 placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500"
           />
           {errors.email && (
             <p className="absolute right-2 bottom-[1px] text-xs text-red-400">
@@ -36,7 +36,7 @@ export default function LoginForm() {
             type="password"
             placeholder="Password"
             {...register("password")}
-            className="w-full h-[42px] p-2 border mb-2 rounded-md text-gray-600 placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500"
+            className="w-full h-[42px] p-2 border rounded-md text-gray-600 placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500"
           />
           {errors.password && (
             <p className="absolute right-2 bottom-[1px] text-xs text-red-400">
