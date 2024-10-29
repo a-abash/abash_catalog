@@ -39,7 +39,7 @@ export default function SignupForm() {
         </div>
         <div className="relative mb-2">
           <input
-            type="password"
+            type="username"
             placeholder="Username"
             {...register("username", { validate: validateUsername })}
             className="w-full h-[42px] p-2 rounded-md border text-gray-600 placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500"
